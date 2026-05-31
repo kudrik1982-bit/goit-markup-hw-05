@@ -11,14 +11,14 @@
 }
 
 .footer-form {
-    display: flex;
-    align-items: center;
-    margin-left: 80px;
+    
 
 }
 .footer-container {
+
     display: flex;
-    align-items: baseline;
+       
+        
 }
 
 .footer-info {
@@ -33,7 +33,7 @@
 
 }
 
-.footer-media {}
+
 
 .footer-text {
 
@@ -54,4 +54,13 @@
     display: flex;
     gap: 16px;
     padding-top: 16px;
+}
+.footer-text-info{
+
+font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+
 }
