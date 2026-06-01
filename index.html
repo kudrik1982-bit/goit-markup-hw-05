@@ -24,7 +24,7 @@
   </head>
 
   <body>
-    <header class="page-header">
+    <id="header" class="page-header">
       <div class="container header-container">
         <nav class="header-nav">
           <a class="logo header-logo" href="./index.html"
@@ -55,17 +55,17 @@
           </ul>
         </address>
       </div>
-    </header>
+    </id="header">
     <main>
-      <section class="main">
+      <id="hero" class="main">
         <div class="container">
           <h1 class="post-title">Effective Solutions for Your Business</h1>
           <button class="button" type="button" data-modal-open>
             Order Service
           </button>
         </div>
-      </section>
-      <section class="features-one">
+      </id="hero">
+      <id="features" class="features-one">
         <div class="container">
           <h2 class="visually-hidden">Our Features</h2>
           <ul class="features-list">
@@ -126,8 +126,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="work-card">
+      </id="features">
+      <id="team" class="work-card">
         <div class="container">
           <h2 class="team">Our Team</h2>
           <ul class="my-card">
@@ -377,8 +377,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="our-portfolio">
+      </id="team">
+      <id="portfolio" class="our-portfolio">
         <div class="container">
           <h2 class="portfolio">Our Portfolio</h2>
           <ul class="info">
@@ -507,9 +507,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </id="portfolio">
     </main>
-    <footer class="page-footer">
+    <footerid="footer"> <footer= class="page-footer">
       <div class="container footer-container">
         <div class="footer-text">
           <a class="logo footer-logo" href="./index.html"
@@ -571,11 +571,11 @@
         </form>
       </div>
     </footer>
-    <div class="backdrop" data-modal>
+    <divid="modal"> <modal class="backdrop" data-modal>
       <div class="modal">
         <button class="button-close" type="button" data-modal-close>
           <svg width="8" height="8">
-            <use href="images/icons.svg#icon-close-black-18dp-2-1"></use>
+            <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
           </svg>
         </button>
 
@@ -596,7 +596,7 @@
                 id="user-name"
               />
               <svg class="modal-field-icon" width="18" height="24">
-                <use href="images/icons.svg#icon-person-black-18dp-1"></use>
+                <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
               </svg>
             </div>
           </div>
@@ -613,7 +613,7 @@
                 id="user-phone"
               />
               <svg class="modal-field-icon" width="18" height="24">
-                <use href="images/icons.svg#icon-phone-black-18dp-1"></use>
+                <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
               </svg>
             </div>
           </div>
@@ -630,7 +630,7 @@
                 id="user-email"
               />
               <svg class="modal-field-icon" width="18" height="24">
-                <use href="images/icons.svg#icon-email-black-18dp-1"></use>
+                <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
               </svg>
             </div>
           </div>
@@ -661,7 +661,7 @@
           <button type="submit" class="modal-button">Send</button>
         </form>
       </div>
-    </div>
+    </modal>
     <script src="./js/modal.js"></script>
   </body>
 </html>
