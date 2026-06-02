@@ -74,6 +74,11 @@
         letter-spacing: 0.04em;
         color: #fff;
  }
+ 
+ .modal-button:hover,
+ .modal-button:focus {
+  background-color: #404bbf;
+ }
 
  .backdrop {
      position: fixed;
