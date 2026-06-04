@@ -22,7 +22,9 @@
 
  }
 
- .button:hover,
+ .button:hover {
+    
+    fill: #2e2f42};
  .button:focus {
 
 
