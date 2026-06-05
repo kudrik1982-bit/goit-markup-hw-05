@@ -14,33 +14,53 @@
 
 .footer-form-input {
     margin-right: 24px;
-border: 1px solid #fff;
+   border: 1px solid #fff;
     border-radius: 4px;
     padding-block: 8px;
     padding-inline: 16px;
     width: 264px;
     height: 40px;
     background-color: #2e2f42;
-    
-    
-   
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+    font-weight: 400;
+    font-size: 12px;
+
+    /* line-height: 14px; */
+    line-height: 1.16667;
+    letter-spacing: 0.04em;
+    color: #fff;
+    outline: transparent;
+}
+
+
+.footer-form-input:focus{
+
+border-color: #31d0aa;
+
 
 }
+
+
+
 .footer-container {
     display: flex;
-
-    
-       
 }
 
 .footer-info {
-    margin-left: 120px;
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
 }
+.footer-media {
+margin-left: 120px;
+
+
+}
+
+
 
 
 
@@ -62,7 +82,7 @@ border: 1px solid #fff;
 }
 .social-links.social-icons {
     display: flex;
-    margin-left: 120px;
+    
     gap: 16px;
     padding-top: 16px;
 }
@@ -77,15 +97,20 @@ border: 1px solid #fff;
 }
 
 .footer-form-button {
+    display: flex;
+    gap: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border:none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
-border-radius: 4px;
-    
-    padding-inline: 24px;
     
     width: 165px;
     height: 40px;
     max-width: 165px;
-    background: #4d5ae5;
+    background-color: #4d5ae5;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -94,14 +119,15 @@ border-radius: 4px;
         
 }
 .footer-information {
-margin-left:  79px;
+margin-left:  80px;
 
 
 }
 
-.footer-form-button:hover {
+.footer-form-button:hover,
+.footer-form-button:focus {
 
-    background: #31d0aa;
+    background-color: #31d0aa;
 }
 #footer-email::placeholder {
 font-weight: 400;
@@ -109,6 +135,11 @@ font-weight: 400;
     line-height: 1.16667;
     letter-spacing: 0.04em;
     color: #fff;
+
+
+}
+.footer-form {
+display: flex;
 
 
 }
