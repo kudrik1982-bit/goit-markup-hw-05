@@ -99,9 +99,10 @@ margin-left: 120px;
 .footer-form-button {
     display: flex;
     gap: 16px;
+    border-radius: 4px;
     padding-top: 8px;
     padding-bottom: 8px;
-    padding-left: 24px;
+    padding-left: 24px; 
     padding-right: 24px;
     border:none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
